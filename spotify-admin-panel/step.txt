@@ -1,0 +1,13 @@
+1.install pkgs "axios" (for call the api) then create a "react-router-dom" (for create multiple route in admin panel)
+then install "react-toastify" (for notify login logout or errors.)
+
+2. give suppprt to tailwind css we install tailwind then remove default react style 
+3.create component and pages folder for multiple pages.
+4.create pages and add in route in app.js 
+5.create sidebar component and render in app.js 
+6.In sidebar we create div options for add list song and album. then add functionality when click on divs then we use navlink to redirect on route that is define in app.js. navlink  is used when we only go to that link but navigate use when we go to that link base on particular condtions  
+
+7.when click on this options components is render of particular link have in app.jsx file.
+8.settup all these pages for add list song or album in database
+9.we add song from admin panels to database
+10.

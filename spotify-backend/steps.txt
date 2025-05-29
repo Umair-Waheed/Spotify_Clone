@@ -1,0 +1,15 @@
+first- create controller function for add song or list song 
+second- create routes of these add,remove or list song 
+third- define common route in app.js and padd songRoutes that contain add or list route and controller function
+fourth- connect mongoose for data and cloudinary for saving image and song in config folder
+fifth- create schema and model of song and album
+sixth- create multer.js in middleware using this multer middleware we extract image song data and mp3data from frontend 
+In multer.js setup storage function then pass it into multer and store it in variable then export this variable
+seventh- pass this middle ware into add song route in songroute file and use .fields method to pass two obects in array one is for image and other is for audio file
+means we create general multer middleware and pass fields acording to route
+Eight- then setup the controller route function to add remove and list song
+ninth- then setup the controller route of album to add remove and list album 
+so we have successfully create a spotify backend in which we create a song and album functionality like add remove and list.
+
+Now we create a route for admin panel in which we show the list of song and also remove the song by using admin panel.
+then create admin folder in main folder.
