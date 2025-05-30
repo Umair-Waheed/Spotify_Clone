@@ -8,7 +8,7 @@ const PlayerContextProvider = (props) => {
     const seekBg=useRef();
     const seekBar=useRef();
 
-    const url='http://localhost:4000';
+    const url='https://sunny-tidal-archduke.glitch.me';
 
     const[songsData,setSongsData]=useState([]);
     const[albumsData,setAlbumsData]=useState([]);
